@@ -1,0 +1,10 @@
+svg {
+    width: 500px;
+    height: 500px;
+}
+
+path {
+    fill: none;
+    stroke: black;
+    stroke-width: 3px;
+}

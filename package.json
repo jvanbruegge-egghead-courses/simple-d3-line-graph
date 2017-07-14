@@ -1,0 +1,28 @@
+{
+  "name": "d3_graph",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "d3-scale": "^1.0.6",
+    "d3-shape": "^1.2.0"
+  },
+  "scripts": {
+    "start": "cycle-scripts start",
+    "test": "cycle-scripts test",
+    "build": "cycle-scripts build",
+    "eject": "cycle-scripts eject",
+    "clean": "cycle-scripts clean"
+  },
+  "nyc": {
+    "include": [
+      "src"
+    ],
+    "reporter": [
+      "html",
+      "text-summary"
+    ]
+  },
+  "devDependencies": {
+    "cycle-scripts-one-fits-all": "^3.2.3"
+  }
+}
